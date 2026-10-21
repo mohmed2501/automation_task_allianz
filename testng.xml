@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Automation Exercise Suite" verbose="1">
+    <test name="Register">
+        <classes><class name="tests.RegisterTests"/></classes>
+    </test>
+    <test name="Login">
+        <classes><class name="tests.LoginTests"/></classes>
+    </test>
+    <test name="Search, Cart and Payment">
+        <classes><class name="tests.PurchaseTests"/></classes>
+    </test>
+</suite>
